@@ -1,0 +1,6 @@
+p {
+    font-weight: bold;
+    &:after {
+        content: 'Relative path from the source.';
+    }
+}

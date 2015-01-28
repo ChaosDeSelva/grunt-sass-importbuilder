@@ -1,0 +1,44 @@
+{
+  "name": "grunt-sass-importbuilder",
+  "description": "Builds an import file for all the partials found.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/ChaosDeSelva/grunt-sass-importbuilder",
+  "author": {
+    "name": "ChaosDeSelva",
+    "email": "jungle_chaos@yahoo.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ChaosDeSelva/grunt-sass-importbuilder"
+  },
+  "bugs": {
+    "url": "https://github.com/ChaosDeSelva/grunt-sass-importbuilder/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/ChaosDeSelva/grunt-sass-importbuilder/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "slash": "~0.1.3"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
